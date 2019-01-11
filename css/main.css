@@ -1,0 +1,12 @@
+.top{
+    background-color: mediumblue;
+}
+.top p{
+    text-transform: uppercase;
+}
+.redes-sociais ul li{
+    display: inline-block;
+}
+.links{
+    background-color: cornflowerblue;
+}
