@@ -9,6 +9,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
+    font-weight: bold;
 }
 p {
     font-family: 'Roboto', sans-serif;
@@ -18,13 +19,11 @@ p {
     padding: 10px;
     letter-spacing: 1px;
 }
-
 img{
     max-width:100%;
     height: auto;
     display: block;
     margin: auto;
-    
 }
 #principal{
     background-color: #eee;
@@ -33,14 +32,30 @@ img{
     margin: 0 auto;
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
+    
 }
-
 #topo{
     display: flex;
     width: 100%;
-    background-color: red;
+    background-color: #002266;
+    justify-content: stretch;
+    align-items: center;
 }
+#logo{
+    flex: 40%;
+    
+}
+
+#nometel{
+    flex:60%;
+    text-transform: uppercase;
+    
+    color:#eee;
+}
+
+
+
+
 
 #menu {
     background-color: blue;
@@ -50,16 +65,17 @@ img{
     text-align: center;
 }
 
-#menu ul, #redessociais ul{
+#menu ul{
     list-style-type: none;
     padding:0;
 }
 
-#menu a, #redessociais {
+#menu a{
     text-decoration: none;
     color: #fff;
     display: block;
     padding: 10px;
+    font-weight: bold;
 }
 
 #menu a:hover{
@@ -92,6 +108,7 @@ width: 100%;
     #menu ul{
         display: flex;
         justify-content: space-around;
+        
     }
 
     #menu li{
@@ -100,4 +117,3 @@ width: 100%;
     
 }
 
-/*ttt*/
