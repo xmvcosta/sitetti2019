@@ -13,9 +13,6 @@ h1 {
 }
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.1em;
-    text-align: justify;
-    text-indent: 30px;
     padding: 10px;
     letter-spacing: 1px;
 }
@@ -49,16 +46,14 @@ img{
 #nometel{
     flex:60%;
     text-transform: uppercase;
-    
     color:#eee;
+    text-align: center;
+    font-weight: bold;
+    
 }
 
-
-
-
-
 #menu {
-    background-color: blue;
+    background-color:#002b80;
     width: 100%;
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
