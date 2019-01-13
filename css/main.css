@@ -12,8 +12,11 @@ h1 {
     font-weight: bold;
 }
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
     padding: 10px;
+    line-height: 1.5;
+  
 }
 img{
     max-width:100%;
@@ -77,6 +80,11 @@ img{
 #corposite{
 padding: 3%;
 border: solid 1px blue;
+}
+
+#corposite p{
+ text-align: justify;
+ text-indent: 25px;
 }
 #rodape{
 background-color: black;
