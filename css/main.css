@@ -14,9 +14,7 @@ h1 {
 p {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
-    padding: 10px;
     line-height: 1.5;
-  
 }
 img{
     max-width:100%;
@@ -35,22 +33,22 @@ img{
     display: flex;
     width: 100%;
     background-color: #002266;
-    justify-content: stretch;
-    align-items: center;
+    
 }
 #logo{
-    flex: 40%;
+    flex: 25%;
 }
-
 #logo img{
-    margin: left;
+    
 }
 #nometel{
-    flex:60%;
+    flex:75%;
     text-transform: uppercase;
     color:#eee;
     text-align: center;
     font-weight: bold;
+    margin: auto;
+    
 }
 #menu {
     background-color: #0247FE;
@@ -74,17 +72,14 @@ img{
     color: #0247FE;
     background: #fff;
 }
-#showcase{
-    
-}
 #corposite{
 padding: 3%;
 border: solid 1px blue;
 }
-
 #corposite p{
  text-align: justify;
  text-indent: 25px;
+ padding: 10px;
 }
 #rodape{
 background-color: black;
@@ -95,14 +90,11 @@ width: 100%;
     text-align: center;
     letter-spacing: 3px;
 }
-
 /*MEDIA QUERIES*/
 @media (min-width: 768px){
     #menu ul{
         display: flex;
         justify-content: space-around;
-    }
-    #menu li{
     }
 }
 
