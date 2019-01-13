@@ -33,20 +33,13 @@ img{
     display: flex;
     width: 100%;
     background-color: #002266;
-    
 }
-#logo{
-    flex: 25%;
-}
-
 #nometel{
-    flex:75%;
     text-transform: uppercase;
     color:#eee;
     text-align: center;
     font-weight: bold;
     margin: auto;
-    
 }
 #menu {
     background-color: #0247FE;
@@ -78,6 +71,9 @@ border: solid 1px blue;
  text-align: justify;
  text-indent: 25px;
  padding: 10px;
+}
+#corposite img{
+    margin: 0 auto;
 }
 #rodape{
 background-color: black;
