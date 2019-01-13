@@ -20,8 +20,11 @@ p {
 }
 
 img{
-    width: 100%;
+    max-width:100%;
     height: auto;
+    display: block;
+    margin: auto;
+    
 }
 #principal{
     background-color: #eee;
@@ -32,23 +35,40 @@ img{
     flex-wrap: wrap;
     justify-content: center;
 }
+
+#topo{
+    display: flex;
+    width: 100%;
+    background-color: red;
+}
+
 #menu {
     background-color: blue;
-    flex-grow: 1;
-    text-transform: uppercase;
-    text-align: center;
     width: 100%;
-    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
 }
-#menu ul li{
-    list-style: none;
+
+#menu ul, #redessociais ul{
+    list-style-type: none;
+    padding:0;
 }
-#menu a{
-    color:#eee;
+
+#menu a, #redessociais {
     text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
 }
+
+#menu a:hover{
+    color: blue;
+    background: #fff;
+}
+
 #showcase{
-    flex-grow: 1;
+    
 }
 
 #corposite{
@@ -67,8 +87,15 @@ width: 100%;
 }
 
 
-/*MEDIA QUERIES
-@media (min-width: 700px){
-    body{ display: none;}
+/*MEDIA QUERIES*/
+@media (min-width: 768px){
+    #menu ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #menu li{
+        
+    }
+    
 }
-*/
