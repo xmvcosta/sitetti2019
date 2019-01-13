@@ -14,13 +14,11 @@ h1 {
 p {
     font-family: 'Roboto', sans-serif;
     padding: 10px;
-    letter-spacing: 1px;
 }
 img{
     max-width:100%;
     height: auto;
     display: block;
-    margin: auto;
 }
 #principal{
     background-color: #eee;
@@ -29,7 +27,6 @@ img{
     margin: 0 auto;
     display:flex;
     flex-wrap: wrap;
-    
 }
 #topo{
     display: flex;
@@ -40,30 +37,29 @@ img{
 }
 #logo{
     flex: 40%;
-    
 }
 
+#logo img{
+    margin: left;
+}
 #nometel{
     flex:60%;
     text-transform: uppercase;
     color:#eee;
     text-align: center;
     font-weight: bold;
-    
 }
 #menu {
-    background-color:#002b80;
+    background-color: #0247FE;
     width: 100%;
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
-
 #menu ul{
     list-style-type: none;
     padding:0;
 }
-
 #menu a{
     text-decoration: none;
     color: #fff;
@@ -71,21 +67,17 @@ img{
     padding: 10px;
     font-weight: bold;
 }
-
 #menu a:hover{
-    color: blue;
+    color: #0247FE;
     background: #fff;
 }
-
 #showcase{
     
 }
-
 #corposite{
 padding: 3%;
 border: solid 1px blue;
 }
-
 #rodape{
 background-color: black;
 color:#eee;
@@ -96,18 +88,13 @@ width: 100%;
     letter-spacing: 3px;
 }
 
-
 /*MEDIA QUERIES*/
 @media (min-width: 768px){
     #menu ul{
         display: flex;
         justify-content: space-around;
-        
     }
-
     #menu li{
-        
     }
-    
 }
 
