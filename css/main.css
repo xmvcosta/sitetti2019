@@ -38,9 +38,7 @@ img{
 #logo{
     flex: 25%;
 }
-#logo img{
-    
-}
+
 #nometel{
     flex:75%;
     text-transform: uppercase;
