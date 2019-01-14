@@ -13,7 +13,6 @@ h1 {
 }
 p {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
     line-height: 1.5;
 }
 img{
@@ -23,7 +22,7 @@ img{
 }
 #principal{
     background-color: #eee;
-    max-width: 1280px;
+    max-width: 1170px;
     width: 100%;
     margin: 0 auto;
     display:flex;
@@ -35,17 +34,22 @@ img{
     background-color: #002266;
 }
 #nometel{
-    text-transform: uppercase;
+    width: 100%;
     color:#eee;
+    margin: auto;
+}
+#nometel p{
+    text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    margin: auto;
+    font-size: 4vw;
 }
 #menu {
     background-color: #0247FE;
     width: 100%;
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5vw;
     text-align: center;
 }
 #menu ul{
@@ -60,8 +64,8 @@ img{
     font-weight: bold;
 }
 #menu a:hover{
-    color: #0247FE;
-    background: #fff;
+    
+    background: #999;
 }
 #corposite{
 padding: 3%;
@@ -70,7 +74,8 @@ border: solid 1px blue;
 #corposite p{
  text-align: justify;
  text-indent: 25px;
- padding: 10px;
+ padding: 5px;
+ font-size: 4vw;
 }
 #corposite img{
     margin: 0 auto;
@@ -79,16 +84,76 @@ border: solid 1px blue;
 background-color: black;
 color:#eee;
 width: 100%;
+padding: 5px;
 }
 #rodape p{
     text-align: center;
     letter-spacing: 3px;
+    font-size: 3.5vw;
 }
 /*MEDIA QUERIES*/
+@media (min-width: 568px){
+    #menu ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    #nometel p{
+        font-size: 3vw;
+    }
+    #menu{
+        font-size: 3vw;
+    }
+    #corposite p{
+        font-size: 3vw;
+    }
+    #rodape p{
+        text-align: center;
+        letter-spacing: 3px;
+        font-size: 3vw;
+    }
+}
+
 @media (min-width: 768px){
     #menu ul{
         display: flex;
         justify-content: space-around;
     }
+    #nometel p{
+        font-size: 3vw;
+    }
+    #menu{
+        font-size: 2.5vw;
+    }
+    #corposite p{
+        font-size: 2.5vw;
+    }
+    #rodape p{
+        text-align: center;
+        letter-spacing: 3px;
+        font-size: 2.5vw;
+    }
 }
+
+@media (min-width: 1024px){
+    #menu ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    #nometel p{
+        font-size: 2vw;
+    }
+    #menu{
+        font-size: 1.5vw;
+    }
+    #corposite p{
+        font-size: 1.5vw;
+    }
+    #rodape p{
+        text-align: center;
+        letter-spacing: 3px;
+        font-size: 1vw;
+    }
+}
+
+
 
