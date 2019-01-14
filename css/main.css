@@ -18,13 +18,12 @@ img{
   height: auto;
   display: block;
 }
-
-body {
+.principal {
   font-family: 'Josefin Sans', sans-serif;
   max-width: 1280px;
   margin: 0 auto;
+  background: #eee;
 }
-
 /*INICIO MENU PRINCIPAL*/
 .navbar {
   font-size: 18px;
@@ -36,7 +35,6 @@ body {
   list-style-type: none;
   display: none;
 }
-
 .nav-links,
 .logo {
   text-decoration: none;
@@ -60,7 +58,6 @@ body {
   color: rgba(255, 255, 255, 0.8);
   font-size: 24px;
 }
-
 .active {
   display: block;
 }
@@ -69,6 +66,7 @@ body {
 #corposite{
   padding: 3%;
   border: solid 1px blue;
+   
   }
   #corposite p{
    text-align: justify;
@@ -78,6 +76,8 @@ body {
   }
   #corposite img{
       margin: 0 auto;
+      padding: 10px;
+      
   }
 /*FIM CORPOSITE*/
 /* INICIO RODAPE*/
@@ -94,7 +94,7 @@ body {
   }
   /*FIM RODAPE*/
 /*MEDIA QUERIES*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .navbar {
       display: flex;
       justify-content: space-between;
