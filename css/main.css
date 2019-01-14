@@ -1,159 +1,127 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-
 h1 { 
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
 }
 p {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    line-height: 1.5;
+  line-height: 1.5;
 }
 img{
-    max-width:100%;
-    height: auto;
-    display: block;
+  max-width:100%;
+  height: auto;
+  display: block;
 }
-#principal{
-    background-color: #eee;
-    max-width: 1170px;
-    width: 100%;
-    margin: 0 auto;
-    display:flex;
-    flex-wrap: wrap;
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
 }
-#topo{
-    display: flex;
-    width: 100%;
-    background-color: #002266;
+
+/*INICIO MENU PRINCIPAL*/
+.navbar {
+  font-size: 18px;
+  background-image: linear-gradient(260deg, #2376ae 0%, #0e0872 100%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
 }
-#nometel{
-    width: 100%;
-    color:#eee;
-    margin: auto;
+.main-nav {
+  list-style-type: none;
+  display: none;
 }
-#nometel p{
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
-    font-size: 4vw;
+
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: #fff;
 }
-#menu {
-    background-color: #0247FE;
-    width: 100%;
-    text-transform: uppercase;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 3.5vw;
-    text-align: center;
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
 }
-#menu ul{
-    list-style-type: none;
-    padding:0;
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
-#menu a{
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    padding: 10px;
-    font-weight: bold;
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
 }
-#menu a:hover{
-    
-    background: #999;
+
+.active {
+  display: block;
 }
+/*FIM MENU PRINCIPAL*/
+/*INICIO CORPOSITE*/
 #corposite{
-padding: 3%;
-border: solid 1px blue;
-}
-#corposite p{
- text-align: justify;
- text-indent: 25px;
- padding: 5px;
- font-size: 4vw;
-}
-#corposite img{
-    margin: 0 auto;
-}
+  padding: 3%;
+  border: solid 1px blue;
+  }
+  #corposite p{
+   text-align: justify;
+   text-indent: 25px;
+   padding: 5px;
+   font-size: 1.1em;
+  }
+  #corposite img{
+      margin: 0 auto;
+  }
+/*FIM CORPOSITE*/
+/* INICIO RODAPE*/
 #rodape{
-background-color: black;
-color:#eee;
-width: 100%;
-padding: 5px;
-}
-#rodape p{
-    text-align: center;
-    letter-spacing: 3px;
-    font-size: 3.5vw;
-}
+  background-color: black;
+  color:#eee;
+  width: 100%;
+  padding: 15px;
+  }
+  #rodape p{
+      text-align: center;
+      letter-spacing: 3px;
+      font-size: 1.1em;
+  }
+  /*FIM RODAPE*/
 /*MEDIA QUERIES*/
-@media (min-width: 568px){
-    #menu ul{
-        display: flex;
-        justify-content: space-around;
-    }
-    #nometel p{
-        font-size: 3vw;
-    }
-    #menu{
-        font-size: 3vw;
-    }
-    #corposite p{
-        font-size: 3vw;
-    }
-    #rodape p{
-        text-align: center;
-        letter-spacing: 3px;
-        font-size: 3vw;
-    }
+@media screen and (min-width: 768px) {
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      height: 70px;
+      align-items: center;
+  }
+  .main-nav {
+      display: flex;
+      margin-right: 30px;
+      flex-direction: row;
+      justify-content: flex-end;
+  }
+  .main-nav li {
+      margin: 0;
+  }
+  .nav-links {
+      margin-left: 40px;
+  }
+  .logo {
+      margin-top: 0;
+  }
+  .navbar-toggle {
+      display: none;
+  }
+  .logo:hover,
+  .nav-links:hover {
+      color: rgba(255, 255, 255, 1);
+  }
 }
-
-@media (min-width: 768px){
-    #menu ul{
-        display: flex;
-        justify-content: space-around;
-    }
-    #nometel p{
-        font-size: 3vw;
-    }
-    #menu{
-        font-size: 2vw;
-    }
-    #corposite p{
-        font-size: 2vw;
-    }
-    #rodape p{
-        text-align: center;
-        letter-spacing: 3px;
-        font-size: 2vw;
-    }
-}
-
-@media (min-width: 1024px){
-    #menu ul{
-        display: flex;
-        justify-content: space-around;
-    }
-    #nometel p{
-        font-size: 2vw;
-    }
-    #menu{
-        font-size: 1.5vw;
-    }
-    #corposite p{
-        font-size: 1.5vw;
-    }
-    #rodape p{
-        text-align: center;
-        letter-spacing: 3px;
-        font-size: 1vw;
-    }
-}
-
-
-
