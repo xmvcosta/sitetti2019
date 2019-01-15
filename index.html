@@ -44,10 +44,41 @@
             </ul>
         </nav>
 
-        <article id="showcase">
-            <img src="img/firewall.png">
-        </article>
-        
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                
+                <img src="img/firewall.png">
+                <div class="text">Firewall</div>
+            </div>
+
+            <div class="mySlides fade">
+                
+                <img src="img/contratomanut.jpg">
+                <div class="text">Contrato de Manutenção</div>
+            </div>
+
+            <div class="mySlides fade">
+                
+                <img src="img/manut.jpg">
+                <div class="text">Manutenção</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
         <main id="corposite">
             <section>
                 <h1>Informática</h1>
@@ -55,13 +86,13 @@
                 <p>Tpsum dolor sit amet, consectetur adipisicing elit. Aliquid voluptatem veniam quod velit cupiditate
                     minima amet iste quia alias! Reprehenderit quisquam dicta voluptatum fugiat perspiciatis ut libero
                     minus aliquid dolores.</p>
-                <img src="img/manutencao-em-Informática.jpg"><img src="img/manutencao-em-Informática.jpg"><img src="img/manutencao-em-Informática.jpg"><img src="img/manutencao-em-Informática.jpg">
+                <img src="img/manut.jpg"><img src="img/manut.jpg">
             </section>
         </main>
         <footer id="rodape">
             <p><strong>Copyright &copy; 2019 Trevisan Tecnologia Informática.</strong></p>
         </footer>
-    </div>    
+    </div>
     <script src="js/jscript.js"></script>
 </body>
 
