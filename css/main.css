@@ -19,6 +19,7 @@ img{
 }
 .principal {
   max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
   background: #2376ae;
   font-family: "Open sans",sans-serif;
@@ -67,7 +68,7 @@ img{
 /*SLIDE*/
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1200px;
+  
   position: relative;
   margin: auto;
   height: 300px;
@@ -148,7 +149,7 @@ img{
 /*FIM SLIDE*/
 /*row e containers*/
 
-.container-fluid{
+.container{
   padding: 2%;
   font-size: 1em;
   letter-spacing: 0.05em;
@@ -156,7 +157,7 @@ img{
   background-color:#0984e3;
   color: #fff;
 }
-.container-fluid h2,section h1{
+.container h2,section h1{
   color: #fff;
   text-shadow: 2px 2px 2px #123456;
   padding: 2%;
