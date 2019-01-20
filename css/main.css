@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+address{
+  display: inline;
+  
+}
+
 .principal{
   width: 100%;
   max-width: 1200px;
@@ -138,6 +143,7 @@
     .conteudo p{
       text-indent: 20px;
       text-align: justify ;
+      
     }
 
     .conteudo img{
