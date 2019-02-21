@@ -108,6 +108,7 @@ address{
      }
      .fab:hover{
        transform:scale(1.2,1.2);
+       transition: all 0.3s linear;
      }
      .fa-youtube{
        background:#bb0000;
@@ -139,6 +140,7 @@ address{
       border: 1px solid #fff;
       text-align: center;
       text-transform: uppercase;
+      text-shadow: 2px 2px 2px #888888;
       margin-bottom: 10px;
       margin-top: 0;
       font-size: 1.2em;
@@ -210,6 +212,7 @@ address{
       color:#333;
       border-radius: 5px;
       transform:scale(1.2,1.2);
+      transition: all 0.3s linear;
     }
     #menulist a:hover{
       color: #333;
