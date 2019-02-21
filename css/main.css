@@ -91,18 +91,18 @@ address{
       padding: 5px;
     }
     #redessociais{
-      font-size: 0.9em;
+      font-size: 1em;
       margin-right: 20px;
     }
-    #redessociais i{
-      padding: 5px;
-    }
+    
      /*icones redes sociais*/
      .fab{
       width: 40px;
-       margin: 3px;
-       border-radius: 5px;
-       text-align: center;
+      height: 40px;
+      border-radius: 20px;
+      margin: 3px;
+      line-height: 40px; 
+      text-align: center;
        /*font-size: 16px;*/
        /*font-weight: bold;*/
      }
@@ -116,7 +116,7 @@ address{
       background:#385998;
     }
     .fa-instagram{
-      background: #8a3ab9;
+      background: linear-gradient(180deg,#4c68d7,#fbad50,#bc2a8d);
     }
 
     .conteudo{
