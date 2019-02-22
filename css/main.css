@@ -181,35 +181,23 @@ address{
     }
 
     .banner{
-      height: 150px;
+      
       background-color: #0871c2;
       border: 2px solid #fff;
       border-radius: 5px;
-      text-shadow: 2px 2px 2px #888888;
-      text-align: right;
-      line-height: 150px;
+      
+      
       margin-bottom: 10px;
     }
+      .bannertitulo{
+      text-shadow: 2px 2px 2px #888888;
+      text-align: center;
+      height: 30px;
+      line-height: 30px;
+      border-bottom: 1px solid #fff;
+      }
 
-    .bannermanutcomp{
-      background-image: url("../img/manutcomputador.jpg");
-      background-size: auto;
-      background-repeat: no-repeat;
-    }
-
-    .bannerservmanut{
-      background-image: url("../img/servidoresmanut.jpg");
-      background-size: auto;
-      background-repeat: no-repeat;
-      
-    }
-
-    .bannernfe{
-      background-image: url("../img/nfe.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      
-    }
+   
   
     #rodape{
       background-color: #333;
