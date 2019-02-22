@@ -40,7 +40,7 @@ address{
       font-size: 1.1em;
     }
     #topocontato{
-      border: 1px solid #fff;
+      border: 2px solid #fff;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -137,7 +137,7 @@ address{
     .conteudo h1{
       background-color: #0871c2;
       border-radius: 5px;
-      border: 1px solid #fff;
+      border: 2px solid #fff;
       text-align: center;
       text-transform: uppercase;
       text-shadow: 2px 2px 2px #888888;
@@ -182,11 +182,9 @@ address{
 
     .banner{
       height: 150px;
-      
       background-color: #0871c2;
-      border: 1px solid #fff;
+      border: 2px solid #fff;
       border-radius: 5px;
-      
       text-shadow: 2px 2px 2px #888888;
       text-align: right;
       line-height: 150px;
