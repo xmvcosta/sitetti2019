@@ -6,7 +6,6 @@
 
 address{
   display: inline;
-  
 }
 
 .principal{
@@ -124,15 +123,12 @@ address{
       display:flex;
       flex-wrap: wrap;
       background-color: #40739e;
-      
       padding: 10px;
       font-size: 1em;
       letter-spacing: 0.1em;
       font-weight: bold;
       line-height: 1.6;
       letter-spacing:1px;
-      
-      
     }
     .conteudo h1{
       background-color: #0871c2;
@@ -145,12 +141,10 @@ address{
       margin-top: 0;
       font-size: 1.2em;
       color: #fff;
-      
     }
     .conteudo p{
       text-indent: 20px;
       text-align: justify ;
-      
     }
 
     .conteudo img{
@@ -159,14 +153,12 @@ address{
       margin: 10px auto;
     }
 
-    
     .left {
       background-color: #dcdcdc;
       margin: 0 5px;
       width: 860px;
-      padding: 15px;
+      padding: 10px;
       color: #333;
-      
     }
 
     .left img{
@@ -177,16 +169,13 @@ address{
       background-color: #dcdcdc;
       margin: 0 5px;
       width: 300px;
-      padding: 15px;
+      padding: 10px;
     }
 
     .banner{
-      
       background-color: #0871c2;
       border: 2px solid #fff;
       border-radius: 5px;
-      
-      
       margin-bottom: 10px;
     }
       .bannertitulo{
@@ -196,8 +185,6 @@ address{
       line-height: 30px;
       border-bottom: 1px solid #fff;
       }
-
-   
   
     #rodape{
       background-color: #333;
@@ -240,9 +227,4 @@ address{
       display: none;
     }
   }
-
-    
-
-
-
-
+  
