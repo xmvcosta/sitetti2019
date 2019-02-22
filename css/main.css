@@ -177,6 +177,7 @@ address{
       border: 2px solid #fff;
       border-radius: 5px;
       margin-bottom: 10px;
+      box-shadow: 5px 5px 5px #888888;
     }
       .bannertitulo{
       text-shadow: 2px 2px 2px #888888;
@@ -227,4 +228,3 @@ address{
       display: none;
     }
   }
-  
