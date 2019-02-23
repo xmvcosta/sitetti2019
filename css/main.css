@@ -170,6 +170,7 @@ address{
       background-color: #777;
       overflow: hidden;
       margin-bottom: 10px;
+      border-radius: 5px;
     }
     .slideshowarea{
       width: 6000px;
