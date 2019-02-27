@@ -1,185 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Marcos Costa">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="keywords" content="firewall,proxy,squid,dansguardian, sistema gestão empresarial ERP, cadastro de clientes, emissão de nota fiscal NFe,nota fiscal eletrônica, manutenção assistência técnica computador notebook, rede de computador wireless, instalar servidor windows linux dhcp dns, backup de dados.">
-    <meta name="description" content="Sistema ERP com emissão de NFe, Assistência técnica em servidor computador e notebook. Servidores windows e linux projeto, instalação e manutenção.">
-    <link rel="canonical" href="http://www.ttitrevisan.com.br" />
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-        crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script type="text/javascript" src="js/script.js"></script>
-    <title>Trevisan Tecnologia Informática</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Meu Site</title>
 </head>
-
 <body>
-    <div class="principal">
-        <div class="topo">
-            <div class="logo"><img src="img/logo-tti.jpg"></div>
-            <div id="topoint">
-                <div id="topocontato">
-                    <p>Trevisan Tecnologia Informática</p>
-                    <p>11 2341 9299</p>
+    <!--TOPO-->
+    <section id="topo">
+        <div id="logotopo">
+            <img src="img/logo-tti.jpg" alt="">
+        </div>
+        <div id="paineltop">
+            <h1>Trevisan Tecnologia Informática</h1>
+        </div>
+    </section>    
+    <!--MENU PRICIPAL-->   
+        <header id="painelmenu">
+            <div id="menu">
+                <div class="bars">
+                    <div>menu</div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div id="bars-lateral">
+                    <div id="topotel">11 2341-9299</div>
+                    <div id="topocontato">contato@ttitrevisan.com.br</div>
                 </div>
             </div>
-        </div><!--fim div topo-->
-        <nav id="menu">
-            <i class="fas fa-bars"></i>
-            <ul id="menulist">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Quem Somos</a></li>
-            </ul>
-            <div id="redessociais">
-                <i class="fab fa-youtube"></i>
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-instagram"></i>
-            </div>    
-        </nav>
-        <main>
-            <section class="conteudo">
-                <div class="left">
 
-                    <div class="slideshow" id="slideshow">
-                        <div class="slidebolinhas">
-                            <div class="bolinha" onclick="mudarSlide(0)"></div>
-                            <div class="bolinha" onclick="mudarSlide(1)"></div>
-                            <div class="bolinha" onclick="mudarSlide(2)"></div>
-                            <div class="bolinha" onclick="mudarSlide(3)"></div>
-                            <div class="bolinha" onclick="mudarSlide(4)"></div>
-                            <div class="bolinha" onclick="mudarSlide(5)"></div>
-                            
-                        </div>
-                        <div class="slideshowarea">
-                            <a href="http://www.ttitrevisan.com.br/servico01.html">
-                                <div class="slide" style="background-image: url(
-                                    'http://www.google.com.br/google.jpg'
-                                )">
-                                    <div class="slideinfo">
-                                        <div class="slideinfotitulo">
-                                            Titulo Principal 1
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="http://www.ttitrevisan.com.br/servico02.html">
-                                <div class="slide" style="background-image: url(
-                                    'http://www.google.com.br/google.jpg'
-                                )">
-                                    <div class="slideinfo">
-                                        <div class="slideinfotitulo">
-                                            Titulo Principal 2
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="http://www.ttitrevisan.com.br/servico03.html">
-                                <div class="slide" style="background-image: url(
-                                    'http://www.google.com.br/google.jpg'
-                                )">
-                                    <div class="slideinfo">
-                                        <div class="slideinfotitulo">
-                                            Titulo Principal 3
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="http://www.ttitrevisan.com.br/servico04.html">
-                                <div class="slide" style="background-image: url(
-                                    'http://www.google.com.br/google.jpg'
-                                )">
-                                    <div class="slideinfo">
-                                        <div class="slideinfotitulo">
-                                            Titulo Principal 4
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="http://www.ttitrevisan.com.br/servico05.html">
-                                <div class="slide" style="background-image: url(
-                                    'http://www.google.com.br/google.jpg'
-                                )">
-                                    <div class="slideinfo">
-                                        <div class="slideinfotitulo">
-                                            Titulo Principal 5
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="http://www.ttitrevisan.com.br/servico06.html">
-                                <div class="slide" style="background-image: url(
-                                    'http://www.google.com.br/google.jpg'
-                                )">
-                                    <div class="slideinfo">
-                                        <div class="slideinfotitulo">
-                                            Titulo Principal 6
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            
-                        </div>
-                    </div>
-
-                    <header>
-                        <h1>Quem Somos</h1>
-                    </header>
-                    <p>A T.T.I. Trevisan Tecnologia Informática, fundada em 01/07/1986, tem se destacado no desenvolvimento de software ERP - gestão empresarial, manutenção de computador, notebook, impressora, no-break, visita técnica na empresa ou residência do cliente, comercialização de equipamentos de informática, projeto completo de infraestrutura de rede, servidores windows  e linux, desktop, roteadores. Possuimos também setor de identificação confeccionando crachás e carteirinhas com códigos de barra em PVC para controle de acesso.</p>
-                    <p>Para atender os objetivos da T.T.I. os seus profissionais têm formação Técnica Eletrônica,Especialistas certificados em Linux e Microsoft e a nível de Pós Graduação na USP. Venha conhecer nossos produtos e serviços em nossa sede própria na <address> Av. Zelina 1253, São Paulo – SP, Cep 03143-003,</address> ou solicite através do telefone (011) 2341-9299 a presença de um consultor para melhor assessorá-lo.</p>
-                    <img src="img/nfe.jpg" >
+            <nav id="menu-list">
+                <ul>
+                    <li>Home</li>
+                    <li>Produtos</li>
+                        <ul>
+                            <li>Sub Item</li>
+                            <li>Sub Item</li>
+                            <li>Sub Item</li>
+                        </ul>
+                    <li>Serviços</li>
+                        <ul>
+                            <li>Sub Item</li>
+                            <li>Sub Item</li>
+                            <li>Sub Item</li>
+                        </ul>
+                    <li>Contato</li>
+                    <li>Quem Somos</li>
+                </ul>
+            </nav>
+        </header>
+    <!--CORPOSITE-->    
+    <main id="corposite">
+        <section id="principal">
+            <div class="container">
+                <article class="box">
+                    <img src="http://google.com/google.jpg" alt="">
+                    <h1>Titulo01</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tenetur fugit, consequuntur similique sit illo cumque modi architecto dolore tempore voluptas, ut iure dolores nostrum quod ad, reprehenderit nobis voluptatem!</p>
+                </article>
+                <article class="box">
+                    <img src="http://google.com/google.jpg" alt="">
+                    <h1>Titulo01</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tenetur fugit, consequuntur similique sit illo cumque modi architecto dolore tempore voluptas, ut iure dolores nostrum quod ad, reprehenderit nobis voluptatem!</p>
+                </article>
+                <article class="box">
+                    <img src="http://google.com/google.jpg" alt="">
+                    <h1>Titulo01</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tenetur fugit, consequuntur similique sit illo cumque modi architecto dolore tempore voluptas, ut iure dolores nostrum quod ad, reprehenderit nobis voluptatem!</p>
+                </article>
+            </div>
+            <div class="container">
+                    <article class="box">
+                        <img src="http://google.com/google.jpg" alt="">
+                        <h1>Titulo01</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tenetur fugit, consequuntur similique sit illo cumque modi architecto dolore tempore voluptas, ut iure dolores nostrum quod ad, reprehenderit nobis voluptatem!</p>
+                    </article>
+                    <article class="box">
+                        <img src="http://google.com/google.jpg" alt="">
+                        <h1>Titulo01</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tenetur fugit, consequuntur similique sit illo cumque modi architecto dolore tempore voluptas, ut iure dolores nostrum quod ad, reprehenderit nobis voluptatem!</p>
+                    </article>
+                    <article class="box">
+                        <img src="http://google.com/google.jpg" alt="">
+                        <h1>Titulo01</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tenetur fugit, consequuntur similique sit illo cumque modi architecto dolore tempore voluptas, ut iure dolores nostrum quod ad, reprehenderit nobis voluptatem!</p>
+                    </article>
                 </div>
-                <div class="right">
-                    <div class="banner">
-                        <div class="bannertitulo">
-                            Sistema Gestão Nfe
-                        </div>
-                        <div class="bannerconteudo">
-                            <img src="img/nfe.jpg" />
-                        </div>
-                    </div>
+        </section>
+    </main>
+    <!--RODAPE-->
+    <footer>
+        <div>Conteudo01</div>
+        <div>Conteudo02</div>
+        <div>Conteudo03</div>
+    </footer>    
 
-                    <div class="banner">
-                        <div class="bannertitulo">
-                            Desenvolvimento de Sites
-                        </div>
-                        <div class="bannerconteudo">
-                            <img src="img/desenvolvsite.jpg" />
-                        </div>
-                    </div>
-
-                    <div class="banner">
-                        <div class="bannertitulo">
-                            Servidores Windows Linux
-                        </div>
-                        <div class="bannerconteudo">
-                            <img src="img/servidoresmanut.jpg" />
-                        </div>
-                    </div>
-
-                    <div class="banner">
-                        <div class="bannertitulo">
-                            Manutenção Computador 
-                        </div>
-                        <div class="bannerconteudo">
-                            <img src="img/manutcomputador.jpg" />
-                        </div>
-                    </div>
-                   
-                </div>      
-            </section>
-        </main>
-        <footer id="rodape">
-            <p>Copyright © 2019 Trevisan Tecnologia Informática.</p>
-        </footer>
-    </div><!--fim div principal-->
 </body>
 </html>

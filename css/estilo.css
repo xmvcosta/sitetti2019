@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 1.1rem;
+}
+body{
+    background-image:linear-gradient(260deg, #2376ae 0%, #0e0872 100%);
+    
+}
+img{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+#topo{
+    display: flex;
+}
+
+#logotopo{
+    background: green;
+    width: 116px;
+    height: 116px;
+}
+
+#paineltop{ 
+    background: #999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#painelmenu{
+    list-style: none;
+}
+#menu{
+    display: flex;
+}
+
+.bars{
+    width:60px;
+    height:60px;
+    background: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.bar{
+    width: 80%;
+    height: 3px;
+    background: #fff;
+}
+
+#bars-lateral{
+    background: #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid red;     
+    
+}
+
+#bars-lateral div{
+    border: 1px solid #fff;
+}
+
+
+#menu-list{
+    border: 1px solid red;
+}
+
+#menu-list li{
+    color: #fff;
+    line-height: 2rem;
+}
+
+/*CORPO SITE*/
+#corposite{
+    max-width: 400px;
+    margin: 0 auto;
+    
+}
+
+#principal{
+}
+
+.container{
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.box{
+    background: red;
+    margin: 5px;
+    flex: 1;
+}
+
+.box h1{
+    background: #555;
+}
+
+.box img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+/*RODAPE SITE*/
+footer{
+    background: #333;
+    
+}
+
+/*MEDIA QUERIES*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
